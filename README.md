@@ -29,7 +29,7 @@ def player_input():
     else:
         return ('O', 'X')
         player_input()
-def place_marker(board, marker, position):
+    def place_marker(board, marker, position):
     board[position] = marker
     def win_check(board,mark):
     
